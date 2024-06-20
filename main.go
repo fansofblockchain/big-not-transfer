@@ -24,7 +24,7 @@ var TRANSFER_OPERATIONS = []string{
 
 var (
 	logLevel  = flag.String("log-level", "info", "Log level")
-	minTonCnt = flag.String("min", "100", "Minimum amount of NOT to be considered as transfer")
+	minTonCnt = flag.String("min", "1000000000000000", "Minimum amount of NOT to be considered as transfer")
 )
 
 func init() {
